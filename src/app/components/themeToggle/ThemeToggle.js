@@ -1,0 +1,17 @@
+"use client"
+import styles from './themeToggle.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
+import {useContext} from "react";
+import { ThemeContext } from '@/context/ThemeContext';
+const ThemeToggle=()=>{
+    const {theme,toggle}=useContext(ThemeContext);
+    console.log(theme);
+    return (
+        <div className={styles.container} onClick={toggle}>
+            <Image src="/moon.png" alt=" " width={14} height={14}/>
+            <div className={styles.ball}></div>
+            <Image src="/sun.png" alt="" width={14} height={14}/></div>
+    )
+}
+export default ThemeToggle;
