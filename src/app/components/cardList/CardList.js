@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./cardlist.module.css"
 import Pagination from "../pagination/pagination";
 import { Card } from "../card/card";
+// some comments
  const CardList = () => {
   return (
     <div className={styles.container}>
