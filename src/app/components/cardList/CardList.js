@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./cardlist.module.css"
 import Pagination from "../pagination/pagination";
-import { Card } from "../card/card";
+import { Card } from "../card/Card";
 // some comments
  const CardList = () => {
   return (
