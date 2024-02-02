@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 const AuthLinks=()=>{
     const [open,setOpen]=useState(false);
-    const status ="notauthenticated";
+    const status ="authenticated";
     console.log(open);
     return (
         <>

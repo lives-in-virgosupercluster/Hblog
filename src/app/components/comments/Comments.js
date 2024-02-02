@@ -28,6 +28,46 @@ export const Comments = () => {
             </div>
             <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus odio expedita debitis, atque voluptate reiciendis quibusdam, cum ad nostrum voluptates, fugiat totam doloribus dolorum?</p>
             </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg"className={styles.image} width={50} height={50}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>John Doe</span>
+                    <span className={styles.date}>01.01.2023</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus odio expedita debitis, atque voluptate reiciendis quibusdam, cum ad nostrum voluptates, fugiat totam doloribus dolorum?</p>
+            </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg"className={styles.image} width={50} height={50}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>John Doe</span>
+                    <span className={styles.date}>01.01.2023</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus odio expedita debitis, atque voluptate reiciendis quibusdam, cum ad nostrum voluptates, fugiat totam doloribus dolorum?</p>
+            </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg"className={styles.image} width={50} height={50}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>John Doe</span>
+                    <span className={styles.date}>01.01.2023</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus odio expedita debitis, atque voluptate reiciendis quibusdam, cum ad nostrum voluptates, fugiat totam doloribus dolorum?</p>
+            </div>
+        <div className={styles.comment}>
+            <div className={styles.user}>
+                <Image src="/p1.jpeg"className={styles.image} width={50} height={50}/>
+                <div className={styles.userInfo}>
+                    <span className={styles.username}>John Doe</span>
+                    <span className={styles.date}>01.01.2023</span>
+                </div>
+            </div>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus odio expedita debitis, atque voluptate reiciendis quibusdam, cum ad nostrum voluptates, fugiat totam doloribus dolorum?</p>
+            </div>
            
       </div>
 
